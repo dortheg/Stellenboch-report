@@ -125,25 +125,49 @@ My master experiment is the (d,p)-induced fission of $\ce{^{240}Pu}$, and it is 
 \par 
 \vspace{3mm}
 
-I will first calculate the cross sections using the default fission barrier values in TALYS, and then change the fission barrier and observe the changes happening in the reaction cross sections.
+I first calculated the cross sections using the default fission barrier values in TALYS, and fitted the theory to mach the experimental values by changing the fission barrier. Thereafter, I varied the fission barrier within $\pm 1 \%$, and observed how the values for the fission and gamma cross section depended on the height of the fission barrier.
 
 \section{Results}
 
 I first calculated the default $\ce{^{240}Pu}$(n,f) and $\ce{^{240}Pu}$(n,$\gamma$) cross sections with the default values in TAYLYS, and compared them to experimental values. The results are shown in Figure \ref{fig:Default_TALYS_fission_xs_to_exp} and \ref{fig:Default_TALYS_gamma_xs_vs_exp}.
 
-
-  \begin{figure}
+  \begin{figure} [H]
 	\centering
 	\includegraphics[scale=0.7]{Default_TALYS_fission_xs_to_exp.png}
 	\caption{The default $\ce{^{240}Pu}$(n,f) cross section compared to experiments conducted by Salvador-Castinera et al (2015) and Meadows (1981) }
 	\label{fig:Default_TALYS_fission_xs_to_exp}
 \end{figure}
 
-  \begin{figure}
+  \begin{figure} [H]
 	\centering
 	\includegraphics[scale=0.7]{Default_TALYS_gamma_xs_vs_exp.png}
 	\caption{The default $\ce{^{240}Pu}$(n,f) cross section compared to experiments conducted by Salvador-Castinera et al (2015) and Meadows (1981) }
 	\label{fig:Default_TALYS_gamma_xs_vs_exp}
+\end{figure}
+
+I changed the fission barrier such that the TALYS calculations mached the experimental results. The fitted fission barrier is shown in Figure \ref{fig:Modified_TALYS_gamma_xs_vs_exp}.
+
+  \begin{figure} [H]
+	\centering
+	\includegraphics[scale=0.7]{Modified_TALYS_fission_xs_vs_exp.png}
+	\caption{ $\ce{^{240}Pu}$(n,f) cross section with modified fission barrier, compared to experiments conducted by Salvador-Castinera et al (2015) and Meadows (1981) }
+	\label{fig:Modified_TALYS_gamma_xs_vs_exp}
+\end{figure}
+
+I changed the fission barrier within $\pm 1 \%$, and plotted the fission and gamma cross sections. The results are shown in Figure \ref{fig:Fission_cross_section_varying_fission_barrier} and \ref{fig:Gamma_cross_section_varying_fission_barrier}.
+
+  \begin{figure} [H]
+	\centering
+	\includegraphics[scale=0.7]{Fission_cross_section_varying_fission_barrier.png}
+	\caption{ $\ce{^{240}Pu}$(n,f) cross sections, when the fission barrier is changed within $\pm 1 \%$ }
+	\label{fig:Fission_cross_section_varying_fission_barrier}
+\end{figure}
+
+  \begin{figure} [H]
+	\centering
+	\includegraphics[scale=0.7]{Gamma_cross_section_varying_fission_barrier.png}
+	\caption{ $\ce{^{240}Pu}$(n,$\gamma$) cross sections, when the fission barrier is changed within $\pm 1 \%$ }
+	\label{fig:Gamma_cross_section_varying_fission_barrier}
 \end{figure}
 
 \section{Discussion}

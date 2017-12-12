@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.22)  12 DEC 2017 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.22)  12 DEC 2017 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,7 +1677,7 @@ File: Default_TALYS_fission_xs_to_exp.png Graphic file (type png)
 
 <use Default_TALYS_fission_xs_to_exp.png>
 Package pdftex.def Info: Default_TALYS_fission_xs_to_exp.png used on input line
- 137.
+ 136.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
 
 <Default_TALYS_gamma_xs_vs_exp.png, id=118, 462.528pt x 346.896pt>
@@ -1685,19 +1685,43 @@ File: Default_TALYS_gamma_xs_vs_exp.png Graphic file (type png)
 
 <use Default_TALYS_gamma_xs_vs_exp.png>
 Package pdftex.def Info: Default_TALYS_gamma_xs_vs_exp.png used on input line 1
-44.
+43.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
- (./Report.bbl [7 <./Default_TALYS_fission_xs_to_exp.png>] [8 <./Default_TALYS_
-gamma_xs_vs_exp.png>])
+ [7 <./Default_TALYS_fission_xs_to_exp.png>] <Modified_TALYS_fission_xs_vs_exp.
+png, id=128, 462.528pt x 346.896pt>
+File: Modified_TALYS_fission_xs_vs_exp.png Graphic file (type png)
+
+<use Modified_TALYS_fission_xs_vs_exp.png>
+Package pdftex.def Info: Modified_TALYS_fission_xs_vs_exp.png used on input lin
+e 152.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ [8 <./Default_TALYS_gamma_xs_vs_exp.png>]
+<Fission_cross_section_varying_fission_barrier.png, id=137, 462.528pt x 346.896
+pt>
+File: Fission_cross_section_varying_fission_barrier.png Graphic file (type png)
+
+ <use Fission_cross_section_varying_fission_barrier.png>
+Package pdftex.def Info: Fission_cross_section_varying_fission_barrier.png used
+ on input line 161.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ [9 <./Modified_TALYS_fission_xs_vs_exp.png>]
+<Gamma_cross_section_varying_fission_barrier.png, id=145, 462.528pt x 346.896pt
+>
+File: Gamma_cross_section_varying_fission_barrier.png Graphic file (type png)
+ <use Gamma_cross_section_varying_fission_barrier.png>
+Package pdftex.def Info: Gamma_cross_section_varying_fission_barrier.png used o
+n input line 168.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ [10 <./Fission_cross_section_varying_fission_barrier.png>] (./Report.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+[11 <./Gamma_cross_section_varying_fission_barrier.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 2D276AF3504B568C8EDC4A3406CAEA4F;604.
 
@@ -1707,16 +1731,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 18050 strings out of 492995
- 321531 string characters out of 6132704
- 416574 words of memory out of 5000000
- 21429 multiletter control sequences out of 15000+600000
+ 18074 strings out of 492995
+ 322456 string characters out of 6132704
+ 416993 words of memory out of 5000000
+ 21445 multiletter control sequences out of 15000+600000
  537229 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,18n,70p,10403b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,18n,70p,10403b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -1729,10 +1753,10 @@ l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Report.pdf (9 pages, 295203 bytes).
+Output written on Report.pdf (11 pages, 392730 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
