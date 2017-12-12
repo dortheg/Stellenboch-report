@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.22)  7 DEC 2017 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.22)  12 DEC 2017 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1512,7 +1512,11 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count293
 )
-(./Report.aux)
+(./Report.aux
+
+LaTeX Warning: Label `fig:smooth_fission_barrier' multiply defined.
+
+)
 \openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -1529,8 +1533,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count294
 \scratchdimen=\dimen187
@@ -1589,63 +1592,147 @@ Package caption Info: End \AtBeginDocument code.
 . Activating mapping `default' on line 20.
 .................................................
 
+<binding_energy_per_nucleon.png, id=45, 593.21625pt x 467.7475pt>
+File: binding_energy_per_nucleon.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:binding_energy_per_nucleon' on page 1 undefined o
-n input line 36.
+<use binding_energy_per_nucleon.png>
+Package pdftex.def Info: binding_energy_per_nucleon.png used on input line 44.
+(pdftex.def)             Requested size: 355.9325pt x 280.65065pt.
 
+Overfull \hbox (10.9325pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
 
-LaTeX Warning: Reference `fig:chart_of_nuclei' on page 1 undefined on input lin
-e 36.
+<smooth_fission_barrier.png, id=51, 429.605pt x 321.2pt>
+File: smooth_fission_barrier.png Graphic file (type png)
 
-
-LaTeX Warning: Reference `fig:smooth_fission_barrier' on page 1 undefined on in
-put line 38.
-
-
-LaTeX Warning: Reference `fig:smooth_fission_barrier' on page 1 undefined on in
-put line 38.
-
-(./Report.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+<use smooth_fission_barrier.png>
+Package pdftex.def Info: smooth_fission_barrier.png used on input line 57.
+(pdftex.def)             Requested size: 300.72144pt x 224.83847pt.
  [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./b
+inding_energy_per_nucleon.png>]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ´ in font cmr10!
+
+
+LaTeX Warning: Reference `fig:double_humped_fission_barrier' on page 3 undefine
+d on input line 67.
+
+[3 <./smooth_fission_barrier.png>]
+<double_humped_fission_barrier.png, id=84, 510.90875pt x 421.575pt>
+File: double_humped_fission_barrier.png Graphic file (type png)
+
+<use double_humped_fission_barrier.png>
+Package pdftex.def Info: double_humped_fission_barrier.png used on input line 7
+1.
+(pdftex.def)             Requested size: 357.63368pt x 295.10048pt.
+
+Overfull \hbox (12.63368pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `Wagemas1991' on page 4 undefined on input lin
+e 76.
+
+[4 <./double_humped_fission_barrier.png>]
+Overfull \hbox (2.71347pt too wide) in paragraph at lines 95--96
+[]\OT1/cmr/m/n/10 As men-tioned above, the r-process pro-duces heavy, neutron-r
+ich nu-clei. These
+ []
+
+[5]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mhchem@cee' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 112.
+
+[6] <Default_TALYS_fission_xs_to_exp.png, id=117, 462.528pt x 346.896pt>
+File: Default_TALYS_fission_xs_to_exp.png Graphic file (type png)
+
+<use Default_TALYS_fission_xs_to_exp.png>
+Package pdftex.def Info: Default_TALYS_fission_xs_to_exp.png used on input line
+ 137.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+
+<Default_TALYS_gamma_xs_vs_exp.png, id=118, 462.528pt x 346.896pt>
+File: Default_TALYS_gamma_xs_vs_exp.png Graphic file (type png)
+
+<use Default_TALYS_gamma_xs_vs_exp.png>
+Package pdftex.def Info: Default_TALYS_gamma_xs_vs_exp.png used on input line 1
+44.
+(pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
+ (./Report.bbl [7 <./Default_TALYS_fission_xs_to_exp.png>] [8 <./Default_TALYS_
+gamma_xs_vs_exp.png>])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: F7EDE78DF4B6BD8297C64E5BAB9F4374;412.
+(rerunfilecheck)             Checksum: 2D276AF3504B568C8EDC4A3406CAEA4F;604.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 17969 strings out of 492995
- 319757 string characters out of 6132704
- 413919 words of memory out of 5000000
- 21376 multiletter control sequences out of 15000+600000
- 536262 words of font info for 43 fonts, out of 8000000 for 9000
+ 18050 strings out of 492995
+ 321531 string characters out of 6132704
+ 416574 words of memory out of 5000000
+ 21429 multiletter control sequences out of 15000+600000
+ 537229 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,6n,42p,10403b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,18n,70p,10403b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Report.pdf (2 pages, 79044 bytes).
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Report.pdf (9 pages, 295203 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,3 +1,29 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{TALYSmanual}
+Stephane~Goriely Arjan~Koning, Stephane~Hilaire.
+\newblock {\em TALYS-1.8 User Manual}, December 2015.
+
+\bibitem{Goriely2017}
+Stephane Goriely.
+\newblock Fission cross sections.
+\newblock 2017.
+
+\bibitem{Haseltine2002}
+Eric Haseltine.
+\newblock The 11 greatest unanswered questions of physics.
+\newblock {\em Discover}, 2002.
+
+\bibitem{Krane1988}
+Kenneth~S. Krane.
+\newblock {\em Introductory Nuclear Physics}.
+\newblock John Wiley \& Sons, 1988.
+
+\bibitem{PhysRevC.74.014608}
+M.~Sin, R.~Capote, A.~Ventura, M.~Herman, and P.~Oblo\ifmmode~\check{z}\else
+  \v{z}\fi{}insk\'Y.
+\newblock Fission of light actinides: $^{232}\mathrm{Th}$($n$,$f$) and
+  $^{231}\mathrm{Pa}$($n$,$f$) reactions.
+\newblock {\em Phys. Rev. C}, 74:014608, Jul 2006.
 
 \end{thebibliography}

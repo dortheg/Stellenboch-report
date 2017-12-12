@@ -8,4 +8,62 @@
   keywords  = {nuclear},
 }
 
+@Book{W,
+  title     = {The Nuclear Fission Process},
+  publisher = {CRC Press},
+  year      = {1991},
+  author    = {Cyriel Wagemans},
+  editor    = {Cyriel Wagemans},
+}
+
+@Conference{Spyrou2017,
+  author = {Artemis Spyrou},
+  title  = {Experimental techniques in heavy element nucleosynthesis},
+  year   = {2017},
+}
+
+@Conference{Goriely2017,
+  author = {Stephane Goriely},
+  title  = {Fission cross sections},
+  year   = {2017},
+}
+
+@Article{PhysRevC.74.014608,
+  author    = {Sin, M. and Capote, R. and Ventura, A. and Herman, M. and Oblo\ifmmode \check{z}\else \v{z}\fi{}insk\'Y, P.},
+  title     = {Fission of light actinides: $^{232}\mathrm{Th}$($n$,$f$) and $^{231}\mathrm{Pa}$($n$,$f$) reactions},
+  journal   = {Phys. Rev. C},
+  year      = {2006},
+  volume    = {74},
+  pages     = {014608},
+  month     = {Jul},
+  doi       = {10.1103/PhysRevC.74.014608},
+  issue     = {1},
+  numpages  = {13},
+  publisher = {American Physical Society},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevC.74.014608},
+}
+
+@Article{Royer2007,
+  author   = {Royer, G. and Bonilla, C.},
+  title    = {Multiple-humped fission and fusion barriers of actinide and superheavy elements},
+  journal  = {Journal of Radioanalytical and Nuclear Chemistry},
+  year     = {2007},
+  volume   = {272},
+  number   = {2},
+  pages    = {237--242},
+  month    = {May},
+  issn     = {1588-2780},
+  abstract = {The energy of a deformed nucleus has been determined within a Generalized Liquid Drop Model taking into account the proximity energy, the microscopic corrections and quasi-molecular shapes. In the potential barrier a third peak exists for actinides when one fragment is close to a magic spherical nucleus while the other one varies from oblate to prolate shapes. The barrier heights and half-lives agree with the experimental data. The different entrance channels leading possibly to superheavy elements are studied as well as their $\alpha$-decay.},
+  day      = {01},
+  doi      = {10.1007/s10967-007-0507-4},
+  url      = {https://doi.org/10.1007/s10967-007-0507-4},
+}
+
+@Article{Haseltine2002,
+  author  = {Eric Haseltine},
+  title   = {The 11 Greatest Unanswered Questions of Physics},
+  journal = {Discover},
+  year    = {2002},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

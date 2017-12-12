@@ -121,13 +121,30 @@ In this report, I will test the sensitivity of the (n, $\gamma$) and (n,f) cross
 \par 
 \vspace{3mm}
 
-My master experiment is the (d,p)-induced fission of $\ce{^{240}Pu}$, and it is used as the surrogate reaction of (n,f), assuming that the incoming reaction channel does not affect the reaction cross sections. I will thus calculate the cross sections for $\ce{^{240}Pu}$(n,f) with TALYS. The incoming deuteron energy used in the experiment will be $\approx$ 12 MeV, but the proton will carry some of this kinetic energy away from the nucleus. Thus we expect the neutron to bring up to 4 MeV (?) to the nuclei, and therefore I will use neutron energies up to 4 MeV in this simulation. 
+My master experiment is the (d,p)-induced fission of $\ce{^{240}Pu}$, and it is used as the surrogate reaction of (n,f), assuming that the incoming reaction channel does not affect the reaction cross sections. I will thus calculate the cross sections for $\ce{^{240}Pu}$(n,f) with TALYS. The incoming deuteron energy used in the experiment will be $\approx$ 12 MeV, but the proton will carry some of this kinetic energy away from the nucleus. Thus we expect the neutron to bring up to 5 MeV (?) to the nuclei, and therefore I will use neutron energies up to 5 MeV in this simulation. 
 \par 
 \vspace{3mm}
 
 I will first calculate the cross sections using the default fission barrier values in TALYS, and then change the fission barrier and observe the changes happening in the reaction cross sections.
 
 \section{Results}
+
+I first calculated the default $\ce{^{240}Pu}$(n,f) and $\ce{^{240}Pu}$(n,$\gamma$) cross sections with the default values in TAYLYS, and compared them to experimental values. The results are shown in Figure \ref{fig:Default_TALYS_fission_xs_to_exp} and \ref{fig:Default_TALYS_gamma_xs_vs_exp}.
+
+
+  \begin{figure}
+	\centering
+	\includegraphics[scale=0.7]{Default_TALYS_fission_xs_to_exp.png}
+	\caption{The default $\ce{^{240}Pu}$(n,f) cross section compared to experiments conducted by Salvador-Castinera et al (2015) and Meadows (1981) }
+	\label{fig:Default_TALYS_fission_xs_to_exp}
+\end{figure}
+
+  \begin{figure}
+	\centering
+	\includegraphics[scale=0.7]{Default_TALYS_gamma_xs_vs_exp.png}
+	\caption{The default $\ce{^{240}Pu}$(n,f) cross section compared to experiments conducted by Salvador-Castinera et al (2015) and Meadows (1981) }
+	\label{fig:Default_TALYS_gamma_xs_vs_exp}
+\end{figure}
 
 \section{Discussion}
 
