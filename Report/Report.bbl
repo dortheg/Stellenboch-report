@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{TALYSweb}
+Talys website- nuclear models nd structure information implemented in talys.
+\newblock
+  http://www.talys.eu/more-about-talys/nuclear-models-implemented-in-talys/.
+
 \bibitem{TALYSmanual}
 Stephane~Goriely Arjan~Koning, Stephane~Hilaire.
 \newblock {\em TALYS-1.8 User Manual}, December 2015.

@@ -66,4 +66,11 @@
   year    = {2002},
 }
 
+@Manual{TALYSmanual,
+  title  = {TALYS-1.8 User Manual},
+  author = {Arjan Koning, Stephane Hilaire, Stephane Goriely},
+  month  = dec,
+  year   = {2015},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

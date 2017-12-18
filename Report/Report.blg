@@ -4,46 +4,47 @@ The top-level auxiliary file: Report.aux
 The style file: plain.bst
 Database file #1: TALYS.bib.bib
 Warning--I didn't find a database entry for "Wagemas1991"
+Warning--to sort, need author or key in TALYSweb
 Warning--empty booktitle in Goriely2017
-You've used 5 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            531 strings with 4652 characters,
-and the built_in function-call counts, 1260 in all, are:
-= -- 111
-> -- 56
+            535 strings with 4816 characters,
+and the built_in function-call counts, 1419 in all, are:
+= -- 126
+> -- 57
 < -- 0
-+ -- 24
++ -- 25
 - -- 18
-* -- 72
-:= -- 228
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 22
+* -- 77
+:= -- 245
+add.period$ -- 16
+call.type$ -- 6
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 55
-empty$ -- 109
+cite$ -- 8
+duplicate$ -- 62
+empty$ -- 132
 format.name$ -- 18
-if$ -- 253
+if$ -- 293
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 6
 missing$ -- 5
-newline$ -- 27
+newline$ -- 31
 num.names$ -- 10
-pop$ -- 32
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 21
 quote$ -- 0
-skip$ -- 34
+skip$ -- 42
 stack$ -- 0
-substring$ -- 44
-swap$ -- 6
+substring$ -- 49
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
-warning$ -- 1
+type$ -- 22
+warning$ -- 2
 while$ -- 11
-width$ -- 6
-write$ -- 50
-(There were 2 warnings)
+width$ -- 7
+write$ -- 57
+(There were 3 warnings)
