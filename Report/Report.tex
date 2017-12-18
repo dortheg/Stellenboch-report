@@ -119,12 +119,16 @@ When determining if we have understood the nucleosynthesis, we rely on simultion
 TALYS is a computer code for computing reaction cross sections for nuclear reactions \cite{TALYSmanual}, and it is a handy tool for predicting outcomes of experiments before conducting them. TALYS can simulate light incident particles for a wide range of energies, hitting nuclei in the atomic mass region $12<A>339$ \cite{TALYSmanual}. The code will then provide the cross sections for different reactions to occur. The code is also highly customizable. It will provide a set of default values and models that can easily changed to study the impact of different models on the reaction cross sections.
 
 \subsubsection{TALYS as a HF code}
-TALYS is, as mentioned, a code for calculating reaction cross sections, and it has implemented several reaction models for different reactions. One of these models that are implemented, is the Hauser-Feshback theory for compound nuclear reaction \cite{TALYSweb}. 
+TALYS is, as mentioned, a code for calculating reaction cross sections, and it has implemented several reaction models for different reactions. One of these models that are implemented, is the Hauser-Feshbach (HF) theory for compound nuclear reaction \cite{TALYSweb}. 
+\par 
+\vspace{3mm}
 
+Hauser-Feshbach assumes the formation of a so-called compound nucleus when a reaction happens, which means the energy of the incoming particle is shared between all the nucleons in the nucleus. The compound nucleus, often excited, is thought to exist for a moment before decaying. The HF theory assumes that how this compound nuclei was formed is of no consequence. It claims there is no correlation between the incoming and the outgoing reaction channel \cite{Goriely2017}. The cross-section for a given reaction to happen is simply modelled like the cross section to form a given compound nucleus, multiplied with the cross section for this compoun nucleus to decay in a given way. 
+\par 
+\vspace{3mm}
 
-Motivation, Theory and Limitations
+There are some limitations to the HF theory. For one, it operates in the continuum region of excited levels \cite{Goriely2017}, and the calculations does therefore not include individual resonances. Furthermore, the model assumes the formation of a compound nucleus. This is not the case in all reactions, as the formation of a compound nucleus dominates at low energies and for heavy nuclei \cite{Goriely2017}. Hauser-Feshback theory is known to not be applicable to for example elastic scattering, where the incoming and outgoing reaction cross sections are the same  \cite{Goriely2017}.
 
-Assumes outgoing reaction channel is independent of incoming reaction channel
 
 \subsection{(n,$\gamma$) and (n,f) cross sections sensitivity to changes in the fission barrier of $\ce{^{240}Pu}$}
 

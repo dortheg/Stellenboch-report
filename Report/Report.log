@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.22)  18 DEC 2017 08:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.22)  18 DEC 2017 09:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1635,74 +1635,74 @@ ich nu-clei. These
 [5] [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 129.
+(hyperref)                removing `\gamma' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mhchem@cee' on input line 129.
+(hyperref)                removing `\mhchem@cee' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 129.
+(hyperref)                removing `superscript' on input line 133.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 129.
+(hyperref)                removing `math shift' on input line 133.
 
-<Default_TALYS_fission_xs_to_exp.png, id=123, 462.528pt x 346.896pt>
+<Default_TALYS_fission_xs_to_exp.png, id=127, 462.528pt x 346.896pt>
 File: Default_TALYS_fission_xs_to_exp.png Graphic file (type png)
 
 <use Default_TALYS_fission_xs_to_exp.png>
 Package pdftex.def Info: Default_TALYS_fission_xs_to_exp.png used on input line
- 144.
+ 148.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
  [7]
-<Default_TALYS_gamma_xs_vs_exp.png, id=133, 462.528pt x 346.896pt>
+<Default_TALYS_gamma_xs_vs_exp.png, id=137, 462.528pt x 346.896pt>
 File: Default_TALYS_gamma_xs_vs_exp.png Graphic file (type png)
 
 <use Default_TALYS_gamma_xs_vs_exp.png>
 Package pdftex.def Info: Default_TALYS_gamma_xs_vs_exp.png used on input line 1
-51.
+55.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
  [8 <./Default_TALYS_fission_xs_to_exp.png>] <Modified_TALYS_fission_xs_vs_exp.
-png, id=140, 462.528pt x 346.896pt>
+png, id=144, 462.528pt x 346.896pt>
 File: Modified_TALYS_fission_xs_vs_exp.png Graphic file (type png)
 
 <use Modified_TALYS_fission_xs_vs_exp.png>
 Package pdftex.def Info: Modified_TALYS_fission_xs_vs_exp.png used on input lin
-e 160.
+e 164.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
  [9 <./Default_TALYS_gamma_xs_vs_exp.png>]
-<Fission_cross_section_varying_fission_barrier.png, id=150, 462.528pt x 346.896
+<Fission_cross_section_varying_fission_barrier.png, id=154, 462.528pt x 346.896
 pt>
 File: Fission_cross_section_varying_fission_barrier.png Graphic file (type png)
 
  <use Fission_cross_section_varying_fission_barrier.png>
 Package pdftex.def Info: Fission_cross_section_varying_fission_barrier.png used
- on input line 169.
+ on input line 173.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
  [10 <./Modified_TALYS_fission_xs_vs_exp.png>]
-<Gamma_cross_section_varying_fission_barrier.png, id=159, 462.528pt x 346.896pt
+<Gamma_cross_section_varying_fission_barrier.png, id=163, 462.528pt x 346.896pt
 >
 File: Gamma_cross_section_varying_fission_barrier.png Graphic file (type png)
  <use Gamma_cross_section_varying_fission_barrier.png>
 Package pdftex.def Info: Gamma_cross_section_varying_fission_barrier.png used o
-n input line 176.
+n input line 180.
 (pdftex.def)             Requested size: 323.76738pt x 242.82553pt.
  [11 <./Fission_cross_section_varying_fission_barrier.png>]
-Underfull \hbox (badness 4156) in paragraph at lines 190--190
+Underfull \hbox (badness 4156) in paragraph at lines 194--194
 []|\OT1/cmr/m/n/10 Second hump scal-ing
  []
 
@@ -1710,15 +1710,15 @@ Underfull \hbox (badness 4156) in paragraph at lines 190--190
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 20F198A4410E10C34B7A6411B859C582;682.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
  18091 strings out of 492995
@@ -1742,10 +1742,10 @@ live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Report.pdf (14 pages, 423542 bytes).
+Output written on Report.pdf (14 pages, 424582 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
  42 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
