@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{TALYSweb}
 Talys website- nuclear models nd structure information implemented in talys.
@@ -44,9 +44,21 @@ M.~Sin, R.~Capote, A.~Ventura, M.~Herman, and P.~Oblo\ifmmode~\check{z}\else
   $^{231}\mathrm{Pa}$($n$,$f$) reactions.
 \newblock {\em Phys. Rev. C}, 74:014608, Jul 2006.
 
+\bibitem{Ivanov1980}
+V.A.Tolstikov V.I.Ivanov.
+\newblock Neutron radiation capture by pu-240 on the fast reactor `br-5` core
+  spectra.
+\newblock {\em Ser.Yadernye Konstanty}, Vol.1980(Issue.1/36):26, 1980.
+
 \bibitem{Wagemans1991}
 Cyriel Wagemans.
 \newblock {\em The Nuclear Fission Process}.
 \newblock CRC Press, 1991.
+
+\bibitem{Weston1977}
+L.~W. Weston and J.~H. Todd.
+\newblock Neutron capture cross section of plutonium-240.
+\newblock {\em Nuclear Science and Engineering}, 63(2):143--148, 1977.
+\newblock Downloaded from exfor.
 
 \end{thebibliography}

@@ -107,4 +107,18 @@
   url       = {https://doi.org/10.13182/NSE81-A27412},
 }
 
+@Article{Weston1977,
+  author    = {L. W. Weston and J. H. Todd},
+  title     = {Neutron Capture Cross Section of Plutonium-240},
+  journal   = {Nuclear Science and Engineering},
+  year      = {1977},
+  volume    = {63},
+  number    = {2},
+  pages     = {143-148},
+  note      = {Downloaded from exfor},
+  doi       = {10.13182/NSE77-A27017},
+  publisher = {Taylor \& Francis},
+  url       = {https://doi.org/10.13182/NSE77-A27017},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
