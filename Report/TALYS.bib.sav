@@ -8,7 +8,7 @@
   keywords  = {nuclear},
 }
 
-@Book{W,
+@Book{Wagemans1991,
   title     = {The Nuclear Fission Process},
   publisher = {CRC Press},
   year      = {1991},
@@ -24,7 +24,7 @@
 
 @Conference{Goriely2017,
   author = {Stephane Goriely},
-  title  = {Fission cross sections},
+  title  = {Presentation, fission cross sections},
   year   = {2017},
 }
 
@@ -77,6 +77,34 @@
   title        = {TALYS website- Nuclear models nd structure information implemented in TALYS},
   howpublished = {http://www.talys.eu/more-about-talys/nuclear-models-implemented-in-talys/},
   url          = {http://www.talys.eu/more-about-talys/nuclear-models-implemented-in-talys/},
+}
+
+@Article{SALVADORCASTINEIRA2015177,
+  author   = {P. Salvador-Castiñeira and T. Bryś and R. Eykens and F.-J. Hambsch and A. Göök and S. Oberstedt and C. Pretel and G. Sibbens and D. Vanleeuw and M. Vidali},
+  title    = {Neutron-induced Fission Cross Section of 240,242Pu},
+  journal  = {Physics Procedia},
+  year     = {2015},
+  volume   = {64},
+  number   = {Supplement C},
+  pages    = {177 - 182},
+  issn     = {1875-3892},
+  note     = {Downloaded through EXFOR},
+  doi      = {https://doi.org/10.1016/j.phpro.2015.04.024},
+  keywords = {neutron-induced fission cross section, Pu(n,f), Pu(n,f), Np(n,f), U(n,f)},
+  url      = {http://www.sciencedirect.com/science/article/pii/S1875389215001406},
+}
+
+@Article{rohtu,
+  author    = {James W. Meadows},
+  title     = {The Fission Cross Section of Plutonium-240 Relative to Uranium-235 from 0.35 to 9.6 MeV},
+  journal   = {Nuclear Science and Engineering},
+  year      = {1981},
+  volume    = {79},
+  number    = {2},
+  pages     = {233-237},
+  doi       = {10.13182/NSE81-A27412},
+  publisher = {Taylor \& Francis},
+  url       = {https://doi.org/10.13182/NSE81-A27412},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

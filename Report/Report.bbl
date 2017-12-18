@@ -11,7 +11,7 @@ Stephane~Goriely Arjan~Koning, Stephane~Hilaire.
 
 \bibitem{Goriely2017}
 Stephane Goriely.
-\newblock Fission cross sections.
+\newblock Presentation, fission cross sections.
 \newblock 2017.
 
 \bibitem{Haseltine2002}
@@ -24,11 +24,29 @@ Kenneth~S. Krane.
 \newblock {\em Introductory Nuclear Physics}.
 \newblock John Wiley \& Sons, 1988.
 
+\bibitem{Meadows198}
+James~W. Meadows.
+\newblock The fission cross section of plutonium-240 relative to uranium-235
+  from 0.35 to 9.6 mev.
+\newblock {\em Nuclear Science and Engineering}, 79(2):233--237, 1981.
+
+\bibitem{SALVADORCASTINEIRA2015177}
+P.~Salvador-Castiñeira, T.~Bryś, R.~Eykens, F.-J. Hambsch, A.~Göök,
+  S.~Oberstedt, C.~Pretel, G.~Sibbens, D.~Vanleeuw, and M.~Vidali.
+\newblock Neutron-induced fission cross section of 240,242pu.
+\newblock {\em Physics Procedia}, 64(Supplement C):177 -- 182, 2015.
+\newblock Downloaded through EXFOR.
+
 \bibitem{PhysRevC.74.014608}
 M.~Sin, R.~Capote, A.~Ventura, M.~Herman, and P.~Oblo\ifmmode~\check{z}\else
   \v{z}\fi{}insk\'Y.
 \newblock Fission of light actinides: $^{232}\mathrm{Th}$($n$,$f$) and
   $^{231}\mathrm{Pa}$($n$,$f$) reactions.
 \newblock {\em Phys. Rev. C}, 74:014608, Jul 2006.
+
+\bibitem{Wagemans1991}
+Cyriel Wagemans.
+\newblock {\em The Nuclear Fission Process}.
+\newblock CRC Press, 1991.
 
 \end{thebibliography}
