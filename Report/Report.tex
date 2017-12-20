@@ -61,7 +61,7 @@ When observing the average binding energy per nucleon, shown in Figure \ref{fig:
  \begin{figure} [tbp]
  	\centering
  	\includegraphics[scale=0.7]{smooth_fission_barrier.png}
- 	\caption{The smooth fission barrier, illustrating the activation energy. Figure from K.S. Krane p.481 \cite{Krane1988}}
+ 	\caption{The smooth fission barrier obtained from the liquid drop model, illustrating the activation energy. Figure from K.S. Krane p.481 \cite{Krane1988}}
  	\label{fig:smooth_fission_barrier}
  \end{figure}
 
@@ -78,7 +78,7 @@ When observing the average binding energy per nucleon, shown in Figure \ref{fig:
 \par
 \vspace{3mm}
 
-\noindent This far  the fission barrier has only been described using the liquid drop model. However, the liquid drop model is not a complete description of the nuclei, and shell effects have a impact when studying the probability to fission. When including the effects of the single particle shell structure, the fission barrier is changed to a barrier with two humps, called the double-humped fission barrier \cite{Krane1988} (p.495). The double-humped fission barrier is shown in Figure \ref{fig:double_humped_fission_barrier}. Nuclei with energies below the fission barrier, but above the minima in the fission potential, sees two thinner barriers, compared to one thick barrier that the nuclei sees if it has energies below this well. They can tunnel through the first barrier, and then exist in an isomer state in the well, before either tunnelling through the second potential hump, or gamma-decay back to the ground state.  The tunnelling of two thin barriers is more probable than tunnelling through one thick barrier, so the double-humped fission barrier makes more nuclei unstable to spontaneous fission. The existence of the double-humped fission barrier was confirmed when fission isomers were discovered, which are isotopes highly unstable to spontaneous fission \cite{Krane1988} (p.495). 
+\noindent This far  the fission barrier has only been described using the liquid drop model. However, the liquid drop model is not a complete description of the nuclei, and shell effects have a impact when studying the probability to fission. When including the effects of the single particle shell structure, the fission barrier is changed to a barrier with two humps, called the double-humped fission barrier \cite{Krane1988} (p.495). The double-humped fission barrier is shown in Figure \ref{fig:double_humped_fission_barrier}. Nuclei with energies below the fission barrier, but above the well between the peaks in the double humped fission potential, sees two thinner barriers, compared to one thick barrier that the nuclei sees if it has energies below this well. They can tunnel through the first barrier, and then exist in an isomer state in the well, before either tunnelling through the second potential hump, or gamma-decay back to the ground state.  The tunnelling of two thin barriers is more probable than tunnelling through one thick barrier, so the double-humped fission barrier makes more nuclei unstable to spontaneous fission. The existence of the double-humped fission barrier was confirmed when fission isomers were discovered, which are isotopes highly unstable to spontaneous fission \cite{Krane1988} (p.495). 
 
 \par
 \vspace{3mm}
@@ -110,12 +110,12 @@ When observing the average binding energy per nucleon, shown in Figure \ref{fig:
 
 \par 
 \vspace{3mm}
- \noindent Fission is though to may be the production reaction for light nuclei, in the interval A$\approx 110 - 160$. This is because the way new elements would be produced is as the fission fragments from heavy, neutron rich nucleus. If these fission fragments are still located in an area with high neutron flux, the fission fragments will continue to absorb neutrons, again becoming heavy nuclei, which can fission again. This process is known as fission recycling \cite{Goriely2017}. When the neutron flux decreases, the recyclin process will stop, leaving the fission fragments to decay towards stability. Fission in nucelosynthesis is not only neutron induced, it can also be spontaneous or $\beta$-delayed fission, and also $\gamma$-induced, the latter often referred to as photofission \cite{Goriely2017}. 
+ \noindent Fission is though to may be the production reaction for light nuclei, in the interval A$\approx 110 - 160$. This is because the way new elements would be produced is as the fission fragments from heavy, neutron rich nucleus. If these fission fragments are still located in an area with high neutron flux, the fission fragments will continue to absorb neutrons, again becoming heavy nuclei, which can fission again. This process is known as fission recycling \cite{Goriely2017}. When the neutron flux decreases, the recyclin process will stop, leaving the fission fragments to decay towards stability. Fission in nucelosynthesis can also be spontaneous or $\beta$-delayed fission, and also $\gamma$-induced, the latter often referred to as photofission \cite{Goriely2017}. 
 
 \par 
 \vspace{3mm}
 
- \noindent When determining if we have understood the nucleosynthesis, we rely on simultions of the procuction of the elements, comparing it to the element distrubution we can observe in the universe today.  The challenge when determining the fission's role in the synthesis of heavy elements, is that there are plenty of nuclear properties needed as input to these simulations, half-lives, reaction channel cross sections and fission barriers to mention some. Not only are these properties not always measured for all elements that can be produced in the laberatory, but one also need these properties for exotic nuclei, far from the valley of stability. Predictions must then be used for describing these exotic nuclei's properties, making the simulations of the fission's role in nucleosynthesis unreliable and heavily model dependent. 
+ \noindent When determining if we have understood the nucleosynthesis, we rely on simultions of the procuction of the elements, comparing it to the element distrubution we can observe in the universe today.  The challenge when determining the fission's role in the synthesis of heavy elements, is that there are plenty of nuclear properties needed as input to these simulations, half-lives, reaction channel cross sections and fission barriers to mention some. Not only are these properties not always measured for all elements that can be produced in the laberatory, but one also need these properties for exotic nuclei, far from the valley of stability. Predictions must then be used for describing these exotic nuclei's properties. The uncertainty in the predictions is carried on to the simulations, and this might affect the outcome of the simulations. Therefore, simulations might yield different answers, depending on the model used. 
 
 \section{Method}
 
@@ -128,11 +128,11 @@ TALYS is, as mentioned, a code for calculating reaction cross sections, and it h
 \par 
 \vspace{3mm}
 
- \noindent Hauser-Feshbach assumes the formation of a so-called compound nucleus when a reaction happens, which means the energy of the incoming particle is shared between all the nucleons in the nucleus. The compound nucleus, often excited, is thought to exist for a moment before decaying. The HF theory assumes that how this compound nuclei was formed is of no consequence. It claims there is no correlation between the incoming and the outgoing reaction channel \cite{Goriely2017}. The cross-section for a given reaction to happen is simply modelled like the cross section to form a given compound nucleus, multiplied with the cross section for this compoun nucleus to decay in a given way. 
+ \noindent Hauser-Feshbach assumes the formation of a so-called compound nucleus when a reaction happens, which means the energy of the incoming particle is shared between all the nucleons in the nucleus. The compound nucleus, often excited, is thought to exist for a moment before decaying. The HF theory assumes that how this compound nuclei was formed is of no consequence. It claims there is no correlation between the incoming and the outgoing reaction channel \cite{Goriely2017_OMP}. The cross-section for a given reaction to happen is simply modelled like the cross section to form a given compound nucleus, multiplied with the cross section for this compoun nucleus to decay in a given way. 
 \par 
 \vspace{3mm}
 
- \noindent There are some limitations to the HF theory. For one, it operates in the continuum region of excited levels \cite{Goriely2017}, and the calculations does therefore not include individual resonances. Furthermore, the model assumes the formation of a compound nucleus. This is not the case in all reactions, as the formation of a compound nucleus dominates at low energies and for heavy nuclei \cite{Goriely2017}. Hauser-Feshback theory is known to not be applicable to for example elastic scattering, where the incoming and outgoing reaction cross sections are the same  \cite{Goriely2017}.
+ \noindent There are some limitations to the HF theory. For one, it operates in the continuum region of excited levels \cite{Goriely2017_OMP}, and the calculations does therefore not include individual resonances. Furthermore, the model assumes the formation of a compound nucleus. This is not the case in all reactions, as the formation of a compound nucleus dominates at low energies and for heavy nuclei \cite{Goriely2017_OMP}. Hauser-Feshback theory is known to not be applicable to for example elastic scattering, where the incoming and outgoing reaction cross sections are the same  \cite{Goriely2017_OMP}.
 
 
 \subsection{(n,$\gamma$) and (n,f) cross sections sensitivity to changes in the fission barrier of $\ce{^{240}Pu}$}
@@ -142,13 +142,13 @@ To model the impact of the uncertainty in the fission barrier of $\ce{^{241}Pu}$
 \par 
 \vspace{3mm}
 
-\noindent There are several choices of fission barrier models in TALYS. I have used the default one, which is an experimental fission barrier that contains data for fission barrier heights and shapes for actinides. \cite{TALYSmanual}. 
+\noindent There are several choices of fission barrier models in TALYS. I have used the default one, which is an experimental fission barrier that contains data for fission barrier heights and shapes for actinides, compiled by V. Maslow \cite{TALYSmanual} [p.118]. The barrier is modeled as a double-humped fission barrier, and the heighs  and shapes are fitted to experimental data \cite{TALYSmanual} [p.118]. 
 
 \par 
 \vspace{3mm}
 
 
-\noindent I first calculated the cross sections using the default fission barrier values in TALYS. I changed the theoretical fission barrier to so that the theoretical predictions reproduced experimental results. This value is further referred to as the theoretical value of the fission barrier. Thereafter, I varied the fission barrier within $\pm 1 \%$ of the theoretical value, and observed how the values for the fission and gamma cross section depended on the height of the fission barrier.
+\noindent I first calculated the cross sections using the default fission barrier values in TALYS. I changed the default fission barrier height to so that the TALYS predictions reproduced experimental results. This value is further referred to as the theoretical value of the fission barrier height. Thereafter, I varied the theoretical fission barrier height within $\pm 1 \%$ of the default value, which is an arbitrary choice, and observed how the values for the fission and gamma cross section depended on the height of the fission barrier.
 
 \section{Results}
 
@@ -168,7 +168,7 @@ To model the impact of the uncertainty in the fission barrier of $\ce{^{241}Pu}$
 	\label{fig:Default_TALYS_gamma_xs_vs_exp}
 \end{figure}
 
- \noindent I changed the fission barrier such that the TALYS calculations mached the experimental results. The fitted fission barrier is shown in Figure \ref{fig:Modified_TALYS_gamma_xs_vs_exp}.
+ \noindent I changed the height of the default fission barrier in TALYS, both for the inner and outer hump, such that the TALYS calculations mached  experimental results. The scaling factors are shown in Table \ref{tab:scalingparm_fission_barrier}. The default values are represented by the scaling factor 1. The fitted fission barrier is shown in Figure \ref{fig:Modified_TALYS_gamma_xs_vs_exp}.
 
   \begin{figure} [H]
 	\centering
@@ -182,20 +182,20 @@ To model the impact of the uncertainty in the fission barrier of $\ce{^{241}Pu}$
   \begin{figure} [H]
 	\centering
 	\includegraphics[scale=0.7]{Fission_cross_section_varying_fission_barrier.png}
-	\caption{ $\ce{^{240}Pu}$(n,f) cross sections, when the fission barrier is changed within $\pm 1 \%$, plotted as a function of incoming neutron energy. Compared to experimental values from Salvador-Castinera et al. (2015) \cite{SALVADORCASTINEIRA2015177} and Meadows (1981) \cite{Meadows198}}
+	\caption{ $\ce{^{240}Pu}$(n,f) cross sections, when the fission barrier height for both the inner and outer hump is changed within $\pm 1 \%$, plotted as a function of incoming neutron energy. Compared to experimental values from Salvador-Castinera et al. (2015) \cite{SALVADORCASTINEIRA2015177} and Meadows (1981) \cite{Meadows198}}
 	\label{fig:Fission_cross_section_varying_fission_barrier}
 \end{figure}
 
   \begin{figure} [H]
 	\centering
 	\includegraphics[scale=0.7]{Gamma_cross_section_varying_fission_barrier.png}
-	\caption{ $\ce{^{240}Pu}$(n,$\gamma$) cross sections, when the fission barrier is changed within $\pm 1 \%$, plotted as a function of incoming neutron energy. Compared to experiments conducted by Weston et al. (1977) \cite{Weston1977}, and Ivanov et al. (1980) \cite{Ivanov1980}}
+	\caption{ $\ce{^{240}Pu}$(n,$\gamma$) cross sections, when the fission barrier height for both the inner and outer hump is changed within $\pm 1 \%$, plotted as a function of incoming neutron energy. Compared to experiments conducted by Weston et al. (1977) \cite{Weston1977}, and Ivanov et al. (1980) \cite{Ivanov1980}}
 	\label{fig:Gamma_cross_section_varying_fission_barrier}
 \end{figure}
 
 \begin{table} [H]
 	\centering
-	\caption{Scaling parameters, used to fit the theory to experimental results, and thereafter to change the fission barrier within $\pm 1 \%$. As this is a double-humped fission barrier, there is one scaling parameter for each hump. The parameters are given as parts of the default sizes of fission barrier provided by TALYS}
+	\caption{Scaling parameters, used to fit the theory to experimental results, and thereafter to change the fission barrier height within $\pm 1 \%$ both for the inner and outer barrier. As this is a double-humped fission barrier, there is one scaling parameter for each hump. The parameters are given as parts of the default sizes of fission barrier provided by TALYS}
 	\begin{tabularx}{\textwidth}{XXX} \hline
 		\label{tab:scalingparm_fission_barrier}
 		Barrier & First hump scaling parameter & Second hump scaling parameter\\ \hline
@@ -207,12 +207,13 @@ To model the impact of the uncertainty in the fission barrier of $\ce{^{241}Pu}$
 
 \section{Discussion}
 
-As the reader can se from Figure \ref{fig:Default_TALYS_fission_xs_to_exp}, where the default TALYS settings for the neutron-induced fission of $\ce{^{240}Pu}$ is plotted against experimental results, there is a significant deviation between theory and experiment. There can be a number of reasons for this. As mentioned earlier, TALYS is highly customizable. For the fission barrier, there are several different models that can be used to model the fission barrier \cite{TALYSmanual}. This could be one of the reasons why the default calculation and the experiments didn't mach. However, it is hard to find a physical explanation to why there is a discrepancy, and I will not focus on finding this explanation in this report. 
+As the reader can se from Figure \ref{fig:Default_TALYS_fission_xs_to_exp}, where the default TALYS settings for the neutron-induced fission of $\ce{^{240}Pu}$ is plotted against experimental results, there is a significant deviation between theory and experiment. There can be a number of reasons for this. As mentioned earlier, TALYS is highly customizable. For the fission barrier, there are several different models that can be used to model the fission barrier \cite{TALYSmanual}. This could be one of the reasons why the default calculation and the experiments didn't mach. However, it is beyond the scope of this report to find why there is a discrepancy.
+
 
 \par 
 \vspace{3mm}
 
- \noindent For my answers to be realistic when studying how the cross sections changes under a chage in the fission barrier, I first had to start with a fission barrier that reproduced the experimental results. I chose therefore to scale the default fission barrier. As described in section \ref{Theory}, for some nuclei the double-humped fission barrier is the best model for a fission barrier, and this is true for $\ce{^{241}Pu}$. I therefore scaled both the first and second hump with different scaling parameters until I found a good fit. This is not the best way to handle this challenge, as it does not explain why there is a difference.
+ \noindent When studying how the cross sections changes under a chage in the height of the fission barrier, I wanted to start with a fission barrier that reproduced the experimental results. I chose therefore to scale the default fission barrier. As described in section \ref{Theory}, for some nuclei the double-humped fission barrier is the best model for a fission barrier, and this is true for $\ce{^{241}Pu}$. I therefore scaled both the first and second hump with different scaling parameters until I found a good fit. The scaling parameters are shown in Table \ref{tab:scalingparm_fission_barrier}.This is not the best way to handle this challenge, as it does not explain why there is a difference.
  
  \par 
  \vspace{3mm}

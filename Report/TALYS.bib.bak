@@ -26,6 +26,7 @@
   author = {Stephane Goriely},
   title  = {Presentation, fission cross sections},
   year   = {2017},
+  note   = {South Africa, Stellenbosh},
 }
 
 @Article{PhysRevC.74.014608,
@@ -64,6 +65,7 @@
   title   = {The 11 Greatest Unanswered Questions of Physics},
   journal = {Discover},
   year    = {2002},
+  note    = {Downloaded from http://discovermagazine.com/2002/feb/cover Dec 20th 2017},
 }
 
 @Manual{TALYSmanual,
@@ -119,6 +121,23 @@
   doi       = {10.13182/NSE77-A27017},
   publisher = {Taylor \& Francis},
   url       = {https://doi.org/10.13182/NSE77-A27017},
+}
+
+@Article{Ivanov1980,
+  author  = {V.I.Ivanov, V.A.Tolstikov},
+  title   = {Neutron Radiation Capture By Pu-240 On The Fast Reactor `Br-5` Core Spectra},
+  journal = {Ser.Yadernye Konstanty},
+  year    = {1980},
+  volume  = {Vol.1980},
+  number  = {Issue.1/36},
+  pages   = {26},
+}
+
+@Conference{Goriely2017_OMP,
+  author = {Goriely, S.},
+  title  = {Optical model and Compound Nucleus model},
+  year   = {2017},
+  note   = {South Africa, Stellenbosh},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

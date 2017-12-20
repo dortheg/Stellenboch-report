@@ -26,6 +26,7 @@
   author = {Stephane Goriely},
   title  = {Presentation, fission cross sections},
   year   = {2017},
+  note   = {South Africa, Stellenbosh},
 }
 
 @Article{PhysRevC.74.014608,
@@ -64,6 +65,7 @@
   title   = {The 11 Greatest Unanswered Questions of Physics},
   journal = {Discover},
   year    = {2002},
+  note    = {Downloaded from http://discovermagazine.com/2002/feb/cover},
 }
 
 @Manual{TALYSmanual,
@@ -128,7 +130,14 @@
   year    = {1980},
   volume  = {Vol.1980},
   number  = {Issue.1/36},
-  pages   = {2},
+  pages   = {26},
+}
+
+@Conference{Goriely2017_OMP,
+  author = {Goriely, S.},
+  title  = {Optical model and Compound Nucleus model},
+  year   = {2017},
+  note   = {South Africa, Stellenbosh},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
